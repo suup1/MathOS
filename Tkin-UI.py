@@ -13,10 +13,10 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 # Alpaca API Credentials
-API_KEY = "PK80K61WD7UAAUB5QNQ3"
-SECRET_KEY = "MSaqRqsRbjIcnFTJ946zyVvlfmcpSkWyRkLmI3Xu"
+API_KEY = ""
+SECRET_KEY = ""
 BASE_URL = "https://paper-api.alpaca.markets"
-NEWS_API_KEY = "c116abbbdc1242dc988fa0e2495be70d"
+NEWS_API_KEY = ""
 api = tradeapi.REST(API_KEY, SECRET_KEY, BASE_URL)
 
 # Black-Scholes Formula
